@@ -4,9 +4,36 @@ MP1 files for ECE 498 **principles of safe autonomy**
 
 > Instructions to complete individual Machine Problems will be in the individual MP [README](src/mp1/README.md) files
 
+This folder consist two parts: jupyter folder that should be run on jupyter notebook on your own laptop, and the rest is to run the RightHook simulator, similar to what we have in lab 0.  
+
+## Install Python, Jupyter notebook and openCV
+<ul>
+<li>Download the folder from Gitlab.</li>
+</ul>
+        <pre>git clone https://gitlab.engr.illinois.edu/GolfCar/mp1-release</pre>
+<ul>
+<li>Install python3 (command depends on your own machine)</li>
+</ul>
+<li>MacOS (need to install homebrew first):</li>
+<pre> brew install python</pre>
+Linux:
+<pre>sudo apt-get install python3.6</pre>
+Windows: <strong><a href="https://www.python.org/downloads/release/python-367/" target="_blank" rel="noopener">official python website</a></strong>
+<ul>
+ 	<li>Go to the jupyter folder and install required packages:</li>
+</ul>
+<pre>cd jupyter</pre>
+<pre> pip3 install -r requirements.txt</pre>
+<ul>
+ 	<li>Open Jupyter notebook:</li>
+</ul>
+<pre> jupyter notebook</pre>
+
+
+
 ## Details of Code development are inside jupyter file (.ipynb). 
 
-## Run the code
+## Test the code in RightHook Simulator
 Complete the following steps
 1. In the terminal window type the following
 ```
